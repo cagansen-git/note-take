@@ -22,6 +22,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} antialiased`}
       >
+        <div>Global Layout</div>
         {children}
       </body>
     </html>
